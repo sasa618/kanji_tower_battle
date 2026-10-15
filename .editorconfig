@@ -1,0 +1,13 @@
+# タブ字下げ、UTF-8 BOM、CRLF
+root = true
+
+[*.{cpp,h}]
+indent_style = tab
+end_of_line = crlf
+charset = utf-8-bom
+insert_final_newline = true
+
+# kanji と collection は、空白4つで字下げする
+[KanjiBlocks/{kanji,collection}.{cpp,h}]
+indent_style = space
+indent_size = 4
