@@ -1,0 +1,15 @@
+# Visual Studio の生成物
+.vs/
+x64/
+*.user
+*.aps
+
+# 実行ファイル(リポジトリには入れない)
+bin/
+
+# 漢字図鑑の記録(遊んだ記録なので上げない)
+kanji_collection.txt
+kanji_best.txt
+
+# 紹介映像(Google ドライブに置く)
+映像/
